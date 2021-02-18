@@ -1,0 +1,22 @@
+terminal
+who: 누가있는지
+top: 실시간으로 CPU 사용률 체크
+ls -l: 리스트 보기 
+cd:어느곳에서든지 자기 홈디렉토리로 바로 이동
+../: 상위 디렉토리로 이동
+cd /~/ : 디렉토리 설정
+df -h: 하드 용량 확인
+mkdir: 디렉토리 생성
+qsub: 서버에 job 전송
+qstat: 서버에 누가 job을 수행하고 있는지 확인
+rm test.html : test.html 파일 삭제
+ ~/programs/R-3.2.3/bin/R: R실행
+exit: 나가기
+
+yppasswd: 패스워드 변경
+
+
+alias 환경설정
+vi .bash_profile 
+
+vi ~/.bashrc
