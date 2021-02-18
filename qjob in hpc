@@ -1,0 +1,13 @@
+#! /bin/csh
+#PBS -N hello
+#PBS -l select=1
+#PBS -l place=shared
+#PBS -q normal
+
+#PBS -o oe/run.o
+#PBS -e oe/run.e
+
+cd /data09/dain105
+module load R/3.4.0
+R CMD BATCH hello.R 
+/lfs/data09/dain105/2020/ECMWF/pretretment
